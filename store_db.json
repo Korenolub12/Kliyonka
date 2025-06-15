@@ -14,14 +14,14 @@
 {
     "title": "STALKER Shadow of Chernobyl",
     "price": 1600,
-    "image": "20250219023807!S.T.A.L.K.E.R._Shadow_of_Chornobyl_(cover).jpg",
-    "description": "Класика survival horror. Подорож до ЧАЕС без пам'яті."
+    "image": "Shadow_of_Chornobyl.jpg",
+    "description": "Класика survival horror. Подорож до ЧАЕС."
 },
 {
     "title": "STALKER Call of Pripyat",
     "price": 2000,
-    "image": "7820008-stalker-call-of-pripyat-windows-front-cover.jpg",
-    "description": "Дослідження Прип'яті та пошуки зниклих вертольотів."
+    "image": "call-of-pripyat.jpg",
+    "description": "Дослідження Зони та пошуки зниклих вертольотів."
 },
 {
     "title": "Cossacks: European War",
