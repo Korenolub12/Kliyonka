@@ -1,35 +1,92 @@
-<!doctype html>
-<html lang="uk">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Голова: опис сторінки та підключення стилів -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KLIYONKA</title>
-    <!-- Підключення CSS Bootstrap та шрифтів -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Власні CSS-стилі -->
-     <link rel="styleshhet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UaGames</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <!-- Тіло: увесь вміст сторінки -->
-    <header>
-        <!-- Шапка сайту: назва, логотип, навігація -->
-    </header>
-    <main class="container">
-        <!-- Головний контент сторінки -->
-    </main>
-    <footer>
-        <!-- Підвал сайту: про сайт, автор, контакти тощо -->
-    </footer>
-    <!-- Підключення JS-файлу Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <!-- Власні JS-файли -->
-     <script src="js/script.js"></script>
-</body>
+  <header>
+    <nav>
+      <div class="logo">UaGames</div>
+      <ul class="nav-links">
+        <li><a href="#">GSC Gameworld</a></li>
+        <li><a href="#">4A Games</a></li>
+      </ul>
+      <div class="cart"><i class="fas fa-shopping-cart"></i></div>
+    </nav>
+  </header>
 
+  <main>
+    <section class="game-section">
+      <h2>GSC Gameworld ></h2>
+      <div class="game-grid">
+        <!-- STALKER Games -->
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/Stalkerheartofchernobylcover.jpg" alt="STALKER 2">
+          <p>STALKER 2 Heart of Chernobyl</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/08/S.T.A.L.K.E.R._Clear_Sky_cover_art.png" alt="STALKER Clear Sky">
+          <p>STALKER Clear Sky</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/S.T.A.L.K.E.R._-_Shadow_of_Chernobyl_Coverart.png" alt="Shadow of Chernobyl">
+          <p>STALKER Shadow of Chernobyl</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/95/S.T.A.L.K.E.R._-_Call_of_Pripyat_Coverart.png" alt="Call of Pripyat">
+          <p>STALKER Call of Pripyat</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+
+        <!-- Cossacks Games -->
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/3/38/Cossacks_cover.jpg" alt="Cossacks 1">
+          <p>Cossacks: European War</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/b/b5/CossacksIIcover.jpg" alt="Cossacks 2">
+          <p>Cossacks 2 Napoleonic War</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Cossacks3Cover.jpg" alt="Cossacks 3">
+          <p>Cossacks 3</p>
+          <button>Purchase</button>
+          <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-section">
+      <p>UaGames</p>
+      <p>About GSC...</p>
+      <p>About us</p>
+    </div>
+    <div class="footer-section">
+      <p>Help</p>
+      <p>+38 096 628 68 96</p>
+    </div>
+  </footer>
+</body>
 </html>
