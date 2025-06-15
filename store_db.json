@@ -1,0 +1,44 @@
+[
+{
+    "title": "STALKER 2 Heart of Chernobyl",
+    "price": 2000,
+    "image": "S.T.A.L.K.E.R._2_Logo.png",
+    "description": "Нова частина культового серіалу. Виживання в оновленій Чорнобильській зоні."
+},
+{
+    "title": "STALKER Clear Sky",
+    "price": 2500,
+    "image": "S.T.A.L.K.E.R._Clear_Sky_WW_Cover.jpg",
+    "description": "Дослідження Зони у ролі сталкера з угруповання «Чисте небо»."
+},
+{
+    "title": "STALKER Shadow of Chernobyl",
+    "price": 1600,
+    "image": "20250219023807!S.T.A.L.K.E.R._Shadow_of_Chornobyl_(cover).jpg",
+    "description": "Класика survival horror. Подорож до ЧАЕС без пам'яті."
+},
+{
+    "title": "STALKER Call of Pripyat",
+    "price": 2000,
+    "image": "7820008-stalker-call-of-pripyat-windows-front-cover.jpg",
+    "description": "Дослідження Прип'яті та пошуки зниклих вертольотів."
+},
+{
+    "title": "Cossacks: European War",
+    "price": 2500,
+    "image": "11919067.jpeg",
+    "description": "Масштабні битви XVII-XVIII століть у Європі."
+},
+{
+    "title": "Cossacks 2 Napoleonic War",
+    "price": 1600,
+    "image": "4515301-cossacks-ii-napoleonic-wars-windows-front-cover.jpg",
+    "description": "Епоха Наполеонівських воєн у стратегічному виконанні."
+},
+{
+    "title": "Cossacks 3",
+    "price": 2200,
+    "image": "2447522-cossacks-3-windows-front-cover.jpg",
+    "description": "Повернення класики RTS з оновленою графікою."
+}
+]
